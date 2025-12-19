@@ -328,7 +328,7 @@ export : define [copyFontMetrics fm1 fm2] : begin
 
 export : define DesignParameters : object
 	# V shape
-	straightVShapeSbShrink      0.8
+	straightVShapeSbShrink      0.4
 	straightSmallYShapeSbShrink 0.8
 	#
 	equal_wideness             0.075

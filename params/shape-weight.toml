@@ -13,7 +13,7 @@ periodSize = 140   # Size of period
 
 jut = 85           # Length of slab serif
 vjut = 145         # Length of vertical slab serif
-longjut = 175      # Length of long serifs, like that in `i`.
+longjut = 185      # Length of long serifs, like that in `i`.
 longvjut = 175     # Length of diacritical descenders in cyrillics.
 
 archDepth = 195       # Vertical arc size in capital letters.
@@ -98,13 +98,15 @@ refStroke = 96
 stroke = 114
 refStroke = 114
 contrast = 1.20
-sb = 56
+sb = 50
 essRatio = 1.05
 dotSize = 180
 periodSize = 200
 
 jut = 95
 vjut = 200
+longjut = 192
+longvjut = 192
 archDepth = 215
 rbalance = 50
 rbalance2 = 25

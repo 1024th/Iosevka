@@ -16,8 +16,8 @@ glyph-block Letter-Latin-Upper-T : begin
 	glyph-block-import Letter-Shared-Shapes : CyrDescender RetroflexHook MidHook LeftHook
 	glyph-block-import Letter-Latin-C : CLetterForm CConfig
 
-	define [TLeftX  df] : df.leftSB  + 0.75 * OX
-	define [TRightX df] : df.rightSB - 0.75 * OX
+	define [TLeftX  df] : 0.75 * SB
+	define [TRightX df] : Width - 0.75 * SB
 	define [TShape df top doTopSerifs doBottomSerif fBottomSerifRightHalfOnly] : glyph-proc
 		include : tagged 'strokeV' : VBar.m df.middle 0 top
 
