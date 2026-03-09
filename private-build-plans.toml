@@ -1,0 +1,284 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "normal"
+serifs = "sans"
+noCvSs = false
+exportGlyphNames = true
+
+
+[buildPlans.IosevkaCustom.metricOverride]
+cap = 700
+xHeight = 525
+archDepth = 220
+smallArchDepth = 230
+
+[buildPlans.IosevkaCustom.variants]
+inherits = "ss15"
+
+[buildPlans.IosevkaCustom.variants.design]
+one = "base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-serifless"
+# four = "semi-open-non-crossing-serifless"
+# five = "oblique-arched-serifless"
+# six = "open-contour"
+seven = "straight-serifed"
+# eight = "crossing-asymmetric"
+eight = "two-circles"
+# nine = "open-contour"
+
+# JetBrains Mono style digits
+five = "upright-arched-serifless"
+six = "straight-bar"
+nine = "straight-bar"
+
+# zero = "unslashed"
+capital-a = "straight-serifless"
+capital-b = "standard-serifless"
+capital-c = "serifless"
+capital-d = "more-rounded-serifless"
+# capital-f = "top-left-serifed"
+capital-e = "serifless"
+capital-f = "serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-i = "serifed"
+capital-j = "serifed"
+capital-k = "straight-serifless"
+capital-l = "serifless"
+capital-m = "hanging-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "straight-serifless"
+capital-s = "serifless"
+capital-t = "serifless"
+# a = "double-storey-tailed"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+d = "toothed-serifless"
+f = "flat-hook-serifless"
+g = "double-storey"
+# i = "tailed-serifed"
+i = "serifed"
+# l = "tailed-serifed"
+l = "serifed-semi-tailed"
+# l = "serifed-flat-tailed"
+n = "straight-serifless"
+r = "serifless"
+s = "serifless"
+# t = "bent-hook"
+t = "flat-hook-short-neck"
+w = "straight-almost-flat-top-serifless"
+# y = "straight-serifless"
+# z = "straight-serifless"
+capital-eszet = "rounded-serifless"
+long-s = "bent-hook-diagonal-tailed"
+cyrl-en = "serifless"
+cyrl-er = "eared-serifless"
+cyrl-capital-u = "cursive-serifless"
+cyrl-e = "serifless"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+tilde = "low"
+asterisk = "penta-high"
+underscore = "high"
+caret = "medium"
+ascii-grave = "straight"
+ascii-single-quote = "straight"
+paren = "large-contour"
+brace = "curly-flat-boundary"
+guillemet = "straight"
+number-sign = "slanted"
+at = "threefold"
+dollar = "interrupted"
+cent = "bar-interrupted"
+percent = "rings-segmented-slash"
+bar = "natural-slope"
+question = "corner"
+pilcrow = "curved"
+micro-sign = "tailed-serifless"
+decorative-angle-brackets = "middle"
+lig-ltgteq = "flat"
+lig-neq = "more-slanted-dotted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "without-notch"
+
+
+[buildPlans.IosevkaCustom.ligations]
+# inherits = "dlig"
+inherits = "default-calt"
+
+[buildPlans.IosevkaCustom.variants.italic]
+a = "single-storey-serifed"
+# f = "tailed"
+# f = "diagonal-tailed"
+g = "single-storey-serifless"
+h = "straight-serifless"  # removes bottom-right serif which looks fat
+# i = "tailed-serifed"
+# l = "tailed-serifed"
+# n = "tailed-serifless"
+m = "serifless"
+n = "straight-serifless"
+# t = "bent-hook-short-neck"
+u = "toothed-serifless"  # removes bottom-right serif which makes the space after 'u' too tight
+w = "cursive-serifless"
+
+# "IBM Plex Mono" style italic
+f = "flat-hook-diagonal-tailed"
+i = "serifed-diagonal-tailed"
+k = "diagonal-tailed-cursive-serifless"
+l = "serifed-diagonal-tailed"
+t = "diagonal-tailed-short-neck"
+# x = "cursive"
+
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+# [buildPlans.IosevkaCustom.widths.Condensed]
+# shape = 500
+# menu = 5
+# css = "condensed"
+
+
+[buildPlans.IosevkaCustom.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.IosevkaCustom.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+# [buildPlans.IosevkaCustom.weights.Book]
+# shape = 450
+# menu = 450
+# css = 450
+
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 760
+menu = 700
+css = 700
+
+# [buildPlans.IosevkaCustom.weights.Heavy]
+# shape = 900
+# menu = 900
+# css = 900
+
+
+
+
+
+
+
+
+###################################################################################################
+# Proportional families
+
+[buildPlans.IosevkaAileCustom]
+family  = "Iosevka Aile Custom"
+desc = "Sans-serif"
+spacing = "quasi-proportional"
+buildCharMap = true
+snapshotFamily = 'Iosevka Aile'
+snapshotFeature = {"NWID" = 0}
+exportGlyphNames = true
+
+[buildPlans.IosevkaAileCustom.variants.design]
+capital-i = "serifless"
+capital-j = "serifless"
+capital-m = "flat-bottom-serifless"
+capital-w = "straight-flat-top-serifless"
+a = "double-storey-serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless"
+i = "serifless"
+j = "flat-hook-serifless"
+k = "straight-serifless"
+l = "serifless"
+r = "compact-serifless"
+t = "flat-hook-short-neck"
+u = "toothed-serifless"
+w = "straight-flat-top-serifless"
+y = "straight-serifless"
+long-s = "flat-hook-serifless"
+eszet = "longs-s-lig-serifless"
+lower-iota = "flat-tailed"
+lower-lambda = "straight-turn"
+lower-tau = "short-tailed"
+cyrl-a = "double-storey-serifless"
+cyrl-u = "straight-serifless"
+cyrl-ef = "serifless"
+four = "closed-serifless"
+six = "closed-contour"
+nine = "closed-contour"
+brace = "straight"
+guillemet = "straight"
+at = "fourfold"
+percent = "rings-continuous-slash"
+micro-sign = "toothed-serifless"
+
+# Letterform control for U+1D670 ... U+1D6A3
+[buildPlans.IosevkaAileCustom.derivingVariants.mathtt.design]
+capital-i = "serifed"
+capital-j = "serifless"
+capital-m = "flat-bottom-serifless"
+capital-w = "straight-flat-top-serifless"
+a = "double-storey-serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless"
+i = "serifed"
+j = "flat-hook-serifed"
+k = "straight-serifless"
+l = "serifed"
+r = "compact-serifless"
+t = "flat-hook"
+u = "toothed-serifless"
+w = "straight-flat-top-serifless"
+y = "straight-serifless"
+long-s = "flat-hook-serifless"
+eszet = "longs-s-lig-serifless"
+lower-iota = "serifed-flat-tailed"
+lower-lambda = "straight-turn"
+lower-tau = "short-tailed"
+cyrl-a = "double-storey-serifless"
+cyrl-u = "straight-serifless"
+cyrl-ef = "serifless"
+four = "closed-serifless"
+six = "closed-contour"
+nine = "closed-contour"
+brace = "straight"
+guillemet = "straight"
+at = "fourfold"
+percent = "rings-continuous-slash"
+micro-sign = "toothed-serifless"
+
+[buildPlans.IosevkaAileCustom.widths.Normal]
+shape = 600
+menu  = 5
+css   = "normal"
+
+[buildPlans.IosevkaAileCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
