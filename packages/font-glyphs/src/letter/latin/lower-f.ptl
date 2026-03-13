@@ -157,8 +157,8 @@ glyph-block Letter-Latin-Lower-F : begin
 			__       0
 
 		local barAtCenter : (counterHook === CH-HOOK) || (counterHook === CH-DIAGONAL-HOOK)
-		local crossLeft  : mix 0        df.leftSB  m
-		local crossRight : mix df.width df.rightSB m
+		local crossLeft  : mix 0        df.leftSB  [0.9 * m]
+		local crossRight : mix df.width df.rightSB [0.8 * m]
 		local barLeft : if barAtCenter
 			df.middle - [HSwToV HalfStroke]
 			[mix crossLeft crossRight 0.42] - [HSwToV : 0.375 * Stroke]
