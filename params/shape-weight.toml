@@ -4,7 +4,7 @@ canonicalStrokeWidthMax = 108 # sync with 900 entry below
 
 [shapeWeight.blend.400]
 stroke = 70        # Primary stroke width
-contrast = 1.08    # Stroke width contrast
+contrast = 1.11    # Stroke width contrast
 sb = 64            # Primary sidebearings
 essRatio = 1.12    # Proportion of widen of center of "S"
 dotSize = 125      # Size of dots
