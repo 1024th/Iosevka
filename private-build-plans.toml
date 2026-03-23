@@ -7,10 +7,12 @@ exportGlyphNames = true
 
 
 [buildPlans.IosevkaCustom.metricOverride]
-cap = 700
-xHeight = 525
+cap = 720
+xHeight = 540
 archDepth = 220
-smallArchDepth = 230
+smallArchDepth = 240
+accentClearance = 100    # Vertical clearance of accent marks to the base.
+leading = 1200           # Default line height times 1000.
 
 [buildPlans.IosevkaCustom.variants]
 inherits = "ss15"
@@ -116,7 +118,7 @@ inherits = "default-calt"
 a = "single-storey-serifed"
 # f = "tailed"
 # f = "diagonal-tailed"
-g = "single-storey-serifless"
+g = "single-storey-flat-hook-serifless"
 h = "straight-serifless"  # removes bottom-right serif which looks fat
 # i = "tailed-serifed"
 # l = "tailed-serifed"
@@ -126,6 +128,7 @@ n = "straight-serifless"
 # t = "bent-hook-short-neck"
 u = "toothed-serifless"  # removes bottom-right serif which makes the space after 'u' too tight
 w = "cursive-serifless"
+y = "cursive-flat-hook-serifless"
 
 # "IBM Plex Mono" style italic
 f = "flat-hook-diagonal-tailed"
