@@ -5,8 +5,27 @@ serifs = "sans"
 noCvSs = false
 exportGlyphNames = true
 
+[buildPlans.IosevkaTermCustom]
+inherits = "buildPlans.IosevkaCustom"
+weights.inherits = "buildPlans.IosevkaCustom"
+widths.inherits = "buildPlans.IosevkaCustom"
+slopes.inherits = "buildPlans.IosevkaCustom"
+variants.inherits = "buildPlans.IosevkaCustom"
+ligations.inherits = "buildPlans.IosevkaCustom"
+# metricOverride.inherits = "buildPlans.IosevkaCustom"  # metricOverride doesn't support inherit
+family = "Iosevka Term Custom"
+spacing = "term"
+
 
 [buildPlans.IosevkaCustom.metricOverride]
+cap = 720
+xHeight = 540
+archDepth = 220
+smallArchDepth = 240
+accentClearance = 100    # Vertical clearance of accent marks to the base.
+leading = 1200           # Default line height times 1000.
+
+[buildPlans.IosevkaTermCustom.metricOverride]
 cap = 720
 xHeight = 540
 archDepth = 220
