@@ -19,6 +19,7 @@ spacing = "term"
 
 [buildPlans.IosevkaCustom.metricOverride]
 cap = 720
+ascender = 750
 xHeight = 540
 archDepth = 220
 smallArchDepth = 240
@@ -27,6 +28,7 @@ leading = 1200           # Default line height times 1000.
 
 [buildPlans.IosevkaTermCustom.metricOverride]
 cap = 720
+ascender = 750
 xHeight = 540
 archDepth = 220
 smallArchDepth = 240
