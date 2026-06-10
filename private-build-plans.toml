@@ -1,23 +1,23 @@
-[buildPlans.IosevkaCustom]
-family = "Iosevka Custom"
+[buildPlans.LumenMono]
+family = "Lumen Mono"
 spacing = "normal"
 serifs = "sans"
 noCvSs = false
 exportGlyphNames = true
 
-[buildPlans.IosevkaTermCustom]
-inherits = "buildPlans.IosevkaCustom"
-weights.inherits = "buildPlans.IosevkaCustom"
-widths.inherits = "buildPlans.IosevkaCustom"
-slopes.inherits = "buildPlans.IosevkaCustom"
-variants.inherits = "buildPlans.IosevkaCustom"
-ligations.inherits = "buildPlans.IosevkaCustom"
-# metricOverride.inherits = "buildPlans.IosevkaCustom"  # metricOverride doesn't support inherit
-family = "Iosevka Term Custom"
+[buildPlans.LumenMonoTerm]
+inherits = "buildPlans.LumenMono"
+weights.inherits = "buildPlans.LumenMono"
+widths.inherits = "buildPlans.LumenMono"
+slopes.inherits = "buildPlans.LumenMono"
+variants.inherits = "buildPlans.LumenMono"
+ligations.inherits = "buildPlans.LumenMono"
+# metricOverride.inherits = "buildPlans.LumenMono"  # metricOverride doesn't support inherit
+family = "Lumen Mono Term"
 spacing = "term"
 
 
-[buildPlans.IosevkaCustom.metricOverride]
+[buildPlans.LumenMono.metricOverride]
 cap = 720
 ascender = 750
 xHeight = 540
@@ -26,7 +26,7 @@ smallArchDepth = 240
 accentClearance = 100    # Vertical clearance of accent marks to the base.
 leading = 1200           # Default line height times 1000.
 
-[buildPlans.IosevkaTermCustom.metricOverride]
+[buildPlans.LumenMonoTerm.metricOverride]
 cap = 720
 ascender = 750
 xHeight = 540
@@ -35,10 +35,10 @@ smallArchDepth = 240
 accentClearance = 100    # Vertical clearance of accent marks to the base.
 leading = 1200           # Default line height times 1000.
 
-[buildPlans.IosevkaCustom.variants]
+[buildPlans.LumenMono.variants]
 inherits = "ss15"
 
-[buildPlans.IosevkaCustom.variants.design]
+[buildPlans.LumenMono.variants.design]
 one = "base"
 two = "straight-neck-serifless"
 three = "flat-top-serifless"
@@ -131,11 +131,11 @@ lig-double-arrow-bar = "with-notch"
 lig-single-arrow-bar = "without-notch"
 
 
-[buildPlans.IosevkaCustom.ligations]
+[buildPlans.LumenMono.ligations]
 # inherits = "dlig"
 inherits = "default-calt"
 
-[buildPlans.IosevkaCustom.variants.italic]
+[buildPlans.LumenMono.variants.italic]
 a = "single-storey-serifed"
 # f = "tailed"
 # f = "diagonal-tailed"
@@ -159,50 +159,50 @@ l = "serifed-diagonal-tailed"
 t = "diagonal-tailed-short-neck"
 # x = "cursive"
 
-[buildPlans.IosevkaCustom.widths.Normal]
+[buildPlans.LumenMono.widths.Normal]
 shape = 600
 menu = 5
 css = "normal"
 
-# [buildPlans.IosevkaCustom.widths.Condensed]
+# [buildPlans.LumenMono.widths.Condensed]
 # shape = 500
 # menu = 5
 # css = "condensed"
 
 
-[buildPlans.IosevkaCustom.slopes.Upright]
+[buildPlans.LumenMono.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaCustom.slopes.Italic]
+[buildPlans.LumenMono.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
 
-[buildPlans.IosevkaCustom.weights.Light]
+[buildPlans.LumenMono.weights.Light]
 shape = 300
 menu = 300
 css = 300
 
-[buildPlans.IosevkaCustom.weights.Regular]
+[buildPlans.LumenMono.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
-# [buildPlans.IosevkaCustom.weights.Book]
+# [buildPlans.LumenMono.weights.Book]
 # shape = 450
 # menu = 450
 # css = 450
 
-[buildPlans.IosevkaCustom.weights.Bold]
+[buildPlans.LumenMono.weights.Bold]
 shape = 760
 menu = 700
 css = 700
 
-# [buildPlans.IosevkaCustom.weights.Heavy]
+# [buildPlans.LumenMono.weights.Heavy]
 # shape = 900
 # menu = 900
 # css = 900
@@ -217,16 +217,16 @@ css = 700
 ###################################################################################################
 # Proportional families
 
-[buildPlans.IosevkaAileCustom]
-family  = "Iosevka Aile Custom"
+[buildPlans.LumenAile]
+family  = "Lumen Aile"
 desc = "Sans-serif"
 spacing = "quasi-proportional"
 buildCharMap = true
-snapshotFamily = 'Iosevka Aile'
+snapshotFamily = 'Lumen Aile'
 snapshotFeature = {"NWID" = 0}
 exportGlyphNames = true
 
-[buildPlans.IosevkaAileCustom.variants.design]
+[buildPlans.LumenAile.variants.design]
 capital-i = "serifless"
 capital-j = "serifless"
 capital-m = "flat-bottom-serifless"
@@ -262,7 +262,7 @@ percent = "rings-continuous-slash"
 micro-sign = "toothed-serifless"
 
 # Letterform control for U+1D670 ... U+1D6A3
-[buildPlans.IosevkaAileCustom.derivingVariants.mathtt.design]
+[buildPlans.LumenAile.derivingVariants.mathtt.design]
 capital-i = "serifed"
 capital-j = "serifless"
 capital-m = "flat-bottom-serifless"
@@ -297,12 +297,12 @@ at = "fourfold"
 percent = "rings-continuous-slash"
 micro-sign = "toothed-serifless"
 
-[buildPlans.IosevkaAileCustom.widths.Normal]
+[buildPlans.LumenAile.widths.Normal]
 shape = 600
 menu  = 5
 css   = "normal"
 
-[buildPlans.IosevkaAileCustom.weights.Regular]
+[buildPlans.LumenAile.weights.Regular]
 shape = 400
 menu = 400
 css = 400
