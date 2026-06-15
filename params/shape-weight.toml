@@ -32,7 +32,7 @@ ahook = 145 # Hook depth for `a`
 shook = 135 # Hook depth for `s`
 jhook = 150 # Hook depth for `j`
 
-hookx = 170
+hookx = 180
 rhook = 110 # Hook depth for `r`; Not weight-variable.
 
 # Size of attchment tail (X and Y)
@@ -71,6 +71,8 @@ hook  = 165
 ahook = 130
 shook = 120
 jhook = 135
+
+hookx = 165
 
 [shapeWeight.blend.200]
 vtipfine = 1
@@ -117,5 +119,7 @@ hook  = 195
 ahook = 160
 shook = 150
 jhook = 165
+
+hookx = 195
 
 diagTailAngle = 46
