@@ -90,7 +90,7 @@ glyph-block Letter-Latin-Lower-I : begin
 
 		export : define [FlatTailed df top xMiddle _stroke] : glyph-proc
 			local stroke : fallback _stroke Stroke
-			local tailLength : LongJut * 1.05 * [mix 1 df.adws 0.75]
+			local tailLength : LongJut * 1.3 * [mix 1 df.adws 0.75]
 			local hd : FlatHookDepth df
 
 			define xFinal : xMiddle + [Math.max tailLength : hd.x - [HSwToV : 0.5 * stroke] + 1] + 0.5 * stroke * TanSlope
